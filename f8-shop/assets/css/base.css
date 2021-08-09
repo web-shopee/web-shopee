@@ -117,6 +117,7 @@ html {
     align-items: center;
     justify-content: center;
     line-height: 1.6rem;
+    /* background-color: var(--white-color); */
 }
 
 .btn.btn--normal:hover {
@@ -140,3 +141,55 @@ html {
     color: #949494;
 }
 
+/* selection */
+
+.select-input {
+    position: relative;
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    min-width:200px;
+    display:flex;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    align-items: center;
+}
+
+.select-input__label {
+    font-size: 1.4rem;
+}
+
+.select-input__icon {
+    font-size: 1.4rem;
+    color:rgb(131, 131, 131);
+    position: relative;
+    top: 1px;
+}
+
+.select-input:hover .select-input__list {
+    display: block;
+}
+
+.select-input__list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    padding: 10px 16px;
+    list-style: none;
+    display:none;
+}
+
+.select-input__link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    padding: 5px 0;
+}
+
+.select-input__link:hover {
+    color: var(--primary-color);
+}
