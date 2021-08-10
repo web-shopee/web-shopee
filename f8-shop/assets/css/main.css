@@ -1027,3 +1027,83 @@ heade.header__qr-link:nth-child(1) {
     font-size: 1.4rem;
     color: #555;
 }
+
+/* products */
+
+.home-products-item {
+    background-color: var(--white-color);
+    margin-top: 10px;
+}
+
+.home-products-item__img {
+    padding-top: 100%;
+    background-size: contain;
+}
+
+.home-products-item__name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin: 10px 10px;
+    overflow: hidden;
+    /* 3-dot clip when processing names with more than 2 rows */
+    
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    
+
+.home-products-item__price {
+
+}
+
+.home-products-item__price-old {
+
+}
+
+.home-products-item__price-current {
+
+}
+
+.home-products-item__action {
+
+}
+
+.home-products-item__like {
+
+}
+
+.home-products-item__rating {
+
+}
+
+.home-products-item__origin {
+
+}
+
+.home-products-item__brand {
+
+}
+
+.home-products-item__origin-name {
+
+}
+
+.home-products-item__favourite {
+
+}
+
+.home-products-item__sale-off {
+
+}
+
+.home-products-item__sale-off-percent {
+
+}
+
+.home-products-item__sale-off-label {
+
+}
