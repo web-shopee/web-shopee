@@ -1082,7 +1082,7 @@ heade.header__qr-link:nth-child(1) {
 }
 
 .home-products-item__like {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 /* add i tag to class with priority */
 i.home-products-item__like-icon-fill {
@@ -1100,13 +1100,29 @@ i.home-products-item__like-icon-fill {
 
 .home-products-item__rating {
     font-size: 1rem;
-    transform: scale(0.7);
+    transform: scale(0.8);
     transform-origin: right;
     color: #D5D5D5;
+    margin: -1px 0 0 auto;
+}
+
+.home-products-item__star--gold {
+    color: var(--star-gold-color);
+    
+}
+
+.home-products-item__sold {
+    font-size: 1.2rem;
+    color: var(--text-color);  
+    margin-left: 6px; 
 }
 
 .home-products-item__origin {
-
+    display: flex;
+    margin: 4px 10px 0;
+    color: #656565;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .home-products-item__brand {
@@ -1114,7 +1130,7 @@ i.home-products-item__like-icon-fill {
 }
 
 .home-products-item__origin-name {
-
+    margin-left: auto;
 }
 
 .home-products-item__favourite {
