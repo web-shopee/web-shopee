@@ -1246,3 +1246,8 @@ i.home-products-item__like-icon-fill {
     top: 3px;
     color: var(--white-color);
 }
+
+.home-products__pagination {
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
